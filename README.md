@@ -95,4 +95,5 @@ The trained model achieves **>99% accuracy** and can be extended for digit recog
 
 ---
 
-Would you like me to also make a **short version of the README** (1-page style, fewer sections) so it looks simple for your assignment submission, or do you want to keep this detailed professional version?
+
+
