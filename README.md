@@ -97,7 +97,9 @@ The trained model achieves **>99% accuracy** and can be extended for digit recog
 
 
 
-# 📈 House Price Prediction — Linear Regression & Gradient Descent
+
+
+# Assignment_2_House Price Prediction — Linear Regression & Gradient Descent
 
 This project demonstrates **linear regression** for predicting **house prices from house size** (in sq ft).
 We compare the **Scikit-Learn Linear Regression model** with a **custom implementation of Gradient Descent**.
