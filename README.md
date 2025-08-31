@@ -93,7 +93,97 @@ The CNN model generalizes well with very low error rate.
 This project demonstrates how **Convolutional Neural Networks (CNNs)** can effectively classify handwritten digits with very high accuracy using the MNIST dataset.
 The trained model achieves **>99% accuracy** and can be extended for digit recognition tasks in real-world applications.
 
+
+
+
+
+# 📈 House Price Prediction — Linear Regression & Gradient Descent
+
+This project demonstrates **linear regression** for predicting **house prices from house size** (in sq ft).
+We compare the **Scikit-Learn Linear Regression model** with a **custom implementation of Gradient Descent**.
+
 ---
 
+## 📂 Project Structure
 
+```
+├── HousePrice_Prediction.ipynb   # Main Jupyter/Colab notebook
+├── README.md                     # Project description
+```
 
+---
+
+## 🏡 Dataset
+
+* Synthetic dataset generated for demonstration.
+* **80 samples** of house sizes (500–3500 sq ft).
+* True price relation:
+
+  $$
+  \text{Price (Lakhs)} \approx 0.1 \times \text{Size (sq ft)}
+  $$
+* Added Gaussian noise (±10 lakhs) to simulate real-world variation.
+
+---
+
+## ⚙️ Steps Implemented
+
+1. **Setup & Imports** — NumPy, Matplotlib, Scikit-Learn.
+2. **Dataset Creation** — Synthetic data of house sizes vs prices.
+3. **Data Visualization** — Scatter plot of dataset.
+4. **Baseline Model** — Scikit-Learn’s `LinearRegression`.
+5. **Prepare for Gradient Descent** — Feature scaling, bias term.
+6. **Define Loss & Gradient** — Mean Squared Error (MSE).
+7. **Train with Gradient Descent** — Update weights iteratively.
+8. **Plot Epoch vs Accuracy (R² %)** — Track performance.
+9. **Plot Epoch vs Loss (MSE)** — Track convergence.
+10. **Fit Comparison** — Compare Sklearn vs Gradient Descent.
+11. **Prediction** — Predict house prices for new sizes.
+
+---
+
+## 📊 Results
+
+* **Scikit-Learn Linear Regression**
+
+  * Slope: `0.10150 lakhs/sq ft`
+  * Intercept: `-2.94 lakhs`
+  * R² Score: **0.9896**
+
+* **Gradient Descent (Custom Implementation)**
+
+  * Learned slope: `0.10135 lakhs/sq ft`
+  * Learned intercept: `-2.595 lakhs`
+  * Accuracy (R²): \~**99%**
+
+Both methods give nearly identical results ✅.
+
+---
+
+## 📈 Plots
+
+* **House Prices vs Size (with regression line)**
+* **Epoch vs Accuracy (R² %)**
+* **Epoch vs Loss (MSE)**
+* **Fit Comparison (Sklearn vs Gradient Descent)**
+
+---
+
+## 🚀 Example Predictions
+
+Using Gradient Descent model:
+
+* 800 sq ft → **78.48 lakhs**
+* 1200 sq ft → **119.02 lakhs**
+* 2000 sq ft → **200.10 lakhs**
+* 3000 sq ft → **301.44 lakhs**
+
+---
+
+## ✅ Conclusion
+
+* Both **Scikit-Learn** and **custom Gradient Descent** perform very well on this dataset.
+* Gradient Descent implementation helps understand **how regression actually learns weights**.
+* Achieved **\~99% accuracy (R²)**, showing strong model fit.
+
+---
