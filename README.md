@@ -1,8 +1,8 @@
-# Machine Learning Projects
+# Machine Learning Assignment
 
-This repository contains four fundamental machine learning projects covering classification and regression tasks.
+This repository contains four fundamental machine learning Assignment covering classification and regression tasks.
 
-## 📁 Projects
+## Assignment
 
 ### a. Digit Recognition using CNN (MNIST Dataset)
 - **Description**: Implemented a Convolutional Neural Network to recognize handwritten digits (0-9)
@@ -31,7 +31,7 @@ This repository contains four fundamental machine learning projects covering cla
 - **Features**: Same as Decision Tree project
 - **Classes**: Setosa, Versicolor, Virginica
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python
 - TensorFlow/Keras
 - Scikit-Learn
@@ -39,7 +39,7 @@ This repository contains four fundamental machine learning projects covering cla
 - Pandas
 - Matplotlib
 
-## 📊 Key Algorithms
+##  Key Algorithms
 - Convolutional Neural Networks (CNN)
 - Linear Regression
 - Gradient Descent
